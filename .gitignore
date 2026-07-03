@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+logs/
+airflow-webserver.pid
+airflow.db
+
+.env
+
+data/
+*.csv
+*.parquet
+*.json
+
+.idea/
+.vscode/
+.DS_Store
