@@ -23,7 +23,6 @@ def spark_pipeline():
         spark = SparkSession.builder \
             .appName('AirflowTest') \
             .master("local[*]") \
-            .config("spark.ui.showConsoleProgress", "false") \
             .getOrCreate()
         
         data = [("Alice", 25), ("Bob", 30), ("Charline", 35)]
